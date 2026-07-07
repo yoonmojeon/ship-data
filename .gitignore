@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# 데이터 (용량 큼 — 로컬에서 ho_data 넣고 load_hodata.py 실행)
+ho_data/*.xlsx
+ho_data/~$*
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.xlsx
+
+# 생성물
+reports/output/*.docx
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
